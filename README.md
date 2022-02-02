@@ -5,14 +5,14 @@ User can create meme by selecting random image or from image list. They can add 
 Also they can see their previously created works.
 
 
-#### Screenshots
+## Screenshots
 
 
-[Video Demo](https://drive.google.com/file/d/1mMcjAmQpoRLQn9GbNbh_kPG1aeXMjBU2/view?usp=sharing)
+[Click to see video demo](https://drive.google.com/file/d/1mMcjAmQpoRLQn9GbNbh_kPG1aeXMjBU2/view?usp=sharing)
 
 <table>
    <tr align=center>
-     <td  colspan=3>Home Page <img src="./pics/HomePage.png" width=800 ></td>
+     <td  >Home Page <img src="./pics/HomePage.png" width=800 ></td>
 <td><p>It contains bottom,top input field with styling feature.</br>Preview Button - To Generate Meme</br>Random Button - Select random image from list</br></p></td>
   </tr>
   <tr>
@@ -31,9 +31,14 @@ Also they can see their previously created works.
 
 <hr/>
 
+
+
+
 ### `Ongoing development`
 - create option to share in different platform / copy the url.
 - Store the created meme in cloudinary.
+
+
 
 
 ## Built With
