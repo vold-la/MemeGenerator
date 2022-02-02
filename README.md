@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# `Meme Generator`
+Note - this is in active development. <br /> 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+User can create meme by selecting random image or from image list. They can add top & bottom text and position/style them as per their need.
+Also they can see their previously created works.
 
-## Available Scripts
 
-In the project directory, you can run:
+#### Screenshots
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[Video Demo](https://drive.google.com/file/d/1mMcjAmQpoRLQn9GbNbh_kPG1aeXMjBU2/view?usp=sharing)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<table>
+   <tr align=center>
+     <td  colspan=3>Home Page <img src="./pics/HomePage.png" width=800 ></td>
+<td><p>It contains bottom,top input field with styling feature.</br>Preview Button - To Generate Meme</br>Random Button - Select random image from list</br></p></td>
+  </tr>
+  <tr>
+    <td>Demo Page <img src="./pics/DemoPage.png" height=300 ></td>
+<td>
+<p>Clicking on Preview will create a section with generated meme .</br> For downloading part, I have used Dom Selector to select this section and convert it into Image.</p>
+</td>
+</tr><tr>
+    <td>History Page <img src="./pics/HistoryPage.png" height=250 ></td>
+<td><p>This part contains all your previously created works</p></td>
+</tr><tr>
+    <td>Created Meme<img src="./pics/CreatedMeme.png" height=250></td>
+<td></td>
+  </tr>
+</table>
 
-### `yarn test`
+<hr/>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `Ongoing development`
+- create option to share in different platform / copy the url.
+- Store the created meme in cloudinary.
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Built With
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<table  align=center>
+  <tr>
+   <td align=center> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png" height=100   ></td>
+    <td align=center> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/768px-Bootstrap_logo.svg.png"  height=100    ></td>
+   <td align=center> <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--7f5GjxUW--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/c29t9uc8roz8g9rddbqs.png"  height=100  ></td>
+     
+  </tr>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+</table>
 
-### `yarn eject`
+<hr/>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### `Installation and Setup Instructions`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Clone down this repository. You will need `node` and `npm` installed globally on your machine.
+- Installation:`npm install`
+- To Run Test Suite:`npm test`
+- To Start Server: `npm start`
+- To Visit app locally: `localhost:3000/`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Show your support
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Give a star if you like this project! <br />
+Contributions & feedbacks are welcome!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
